@@ -4,9 +4,6 @@ add_gem 'mongrel'
 add_gem 'sinatra'
 add_gem 'oauth'
 add_gem 'rest-client'
-
-add_dependency 'do_sqlite3', '=0.9.9'
-
-add_dependency 'extlib', '=0.9.9', :require => 'extlib'
-add_dependency 'dm-core', '=0.9.8', :require => 'dm-core'
-add_dependency 'dm-validations', '=0.9.8', :require => 'dm-validations'
+add_gem 'dm-core'
+add_gem 'dm-validations'
+add_gem 'do_sqlite3'
